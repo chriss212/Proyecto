@@ -43,6 +43,9 @@
 }
 
 #contenedor h3:hover{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
+h3 {
+    text-align: left;
+}
