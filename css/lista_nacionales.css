@@ -2,34 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Prata&family=Sixtyfour+Convergence&display=swap');
 
 
-header nav .cultura{
-    font-size: 26px;
-}
-
-header nav .nacionales{
-    font-size: 26px;
-}
-
-section{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-section h3{
-    font-family: "Prata", serif;
-    font-size: 3em;
-    text-align: center;
-    padding: 1%;
-}
-
-section article p{
+section article div ol li{
     padding-top: 1.2%;
     padding-bottom: 1.2%;
     font-family: "Roboto serif", serif;
     text-align: justify;
     line-height: 200%;
-}
-
-article p:first-of-type::first-letter{
-    font-size: 3em;
+    font-size: 28px;
+    font-weight: bold;
+    
 }
