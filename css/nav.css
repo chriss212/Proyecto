@@ -1,11 +1,5 @@
-*{
-    background-size: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 header{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     margin-top: 10px;
@@ -35,7 +29,7 @@ nav ul{
 }
 
 #nav li:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
     font-weight: bold;
 }
 
@@ -43,3 +37,4 @@ nav ul{
     text-decoration: none;
     color: black;
 }
+
