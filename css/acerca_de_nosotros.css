@@ -1,8 +1,12 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Prata&family=Sixtyfour+Convergence&display=swap');
+
+*{
     margin: 0;
     padding: 0;
+    font-family: "Roboto Serif", serif;
+    font-size: 16px;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 body {
@@ -70,6 +74,12 @@ p {
     font-size: 18px;
     font-weight: bold;
     margin-top: 5px;
+    text-align: center;
+}
+
+p.sub {
+    font-size: 14px;
+    color: #03224a;
 }
 
 .miembro:nth-child(-n+3){
@@ -80,14 +90,6 @@ p {
     flex: 1 0 45%;
 }
 
-footer {
-    margin-top: 40px;
-    font-size: 14px;
-    color: #999;
-    text-align: center;
-    border-top: 1px solid #e0e0e0;
-    padding-top: 20px;
-}
 
 @media (max-width: 768px){
     .miembro{
