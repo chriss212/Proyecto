@@ -1,5 +1,11 @@
+*{
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 header{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     margin-top: 10px;
@@ -37,4 +43,3 @@ nav ul{
     text-decoration: none;
     color: black;
 }
-
