@@ -1,0 +1,16 @@
+#video {
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+ol {
+    padding: 15px;
+}
+
+ol li {
+    margin-left: 3%;
+    line-height: 200%;
+}
