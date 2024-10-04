@@ -18,6 +18,7 @@ section h3{
     padding: 1%;
 }
 
+<<<<<<< HEAD
 section h4{
     font-family: "Prata", serif;
     font-size: 1.3em;
@@ -25,6 +26,8 @@ section h4{
     padding: 1%;
 }
 
+=======
+>>>>>>> 1adb483a5b945dce440fbff844beb9356231cb43
 section article p{
     padding-top: 1.2%;
     padding-bottom: 1.2%;
@@ -36,6 +39,7 @@ section article p{
 article p:first-of-type::first-letter{
     font-size: 3em;
 }
+<<<<<<< HEAD
 
 section article img {
     margin: 0 auto;
@@ -43,3 +47,5 @@ section article img {
     width: 400px;
     display: block;
 }
+=======
+>>>>>>> 1adb483a5b945dce440fbff844beb9356231cb43

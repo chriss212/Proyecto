@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.noticias {
+    margin: 5px;
+    border: 1px solid grey;
+    width: 33.5%;
+}
+  
+.noticias:hover {
+    border: 1px solid #FE0000;
+}
+
+  
+.noticias img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 55%;
+}
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.sum {
+    text-align: justify;
+    font-size: 12px;
+    padding: 15px;
+    color: black;
+    line-height: 180%;
+}
+section {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    padding: 3%;
+    flex-wrap: wrap;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
