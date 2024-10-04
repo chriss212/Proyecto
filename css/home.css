@@ -79,4 +79,5 @@ footer {
     justify-items: center;
     position: static;
     bottom: 0%;
+    clear: both;
 }
