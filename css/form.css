@@ -1,0 +1,71 @@
+body {
+    font-family: "Roboto Serif", serif;    
+    background-color: #f0f0f0;
+    color: #03224A;
+}
+
+.formulario-contacto {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #0068FF;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+h3 {
+    text-align: center;
+    color: #004CBA;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #03224A;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="tel"],
+select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #DD1616;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+input:focus,
+select:focus {
+    border-color: #0068FF;
+    outline: none;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #DD1616;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #FE0000;
+}
