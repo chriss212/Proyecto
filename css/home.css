@@ -60,3 +60,11 @@ h1{
 h3 {
     text-align: left;
 }
+
+a {
+    text-decoration: none;
+}
+
+a h3:hover {
+    color: #FE0000;
+}
