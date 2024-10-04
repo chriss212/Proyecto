@@ -4,6 +4,7 @@ body {
     color: #03224A;
 }
 
+
 .formulario-contacto {
     max-width: 600px;
     margin: 20px auto;
@@ -11,13 +12,14 @@ body {
     border: 2px solid #0068FF;
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
+    background-color: gainsboro;
 }
 
 h3 {
     text-align: center;
     color: #004CBA;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .form-group {
@@ -44,6 +46,7 @@ select {
     font-size: 16px;
     display: block;
     margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 input:focus,
@@ -68,4 +71,12 @@ button {
 
 button:hover {
     background-color: #FE0000;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 0.5%;
+    margin-top: 10px;
 }

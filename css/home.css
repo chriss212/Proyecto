@@ -68,3 +68,15 @@ a {
 a h3:hover {
     color: #FE0000;
 }
+
+footer {
+    background-color: #03224A;
+    color: white;
+    text-transform: uppercase;
+    padding: 1%;
+    display: flex block;
+    justify-content: center;
+    justify-items: center;
+    position: static;
+    bottom: 0%;
+}
