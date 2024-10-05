@@ -1,55 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Prata&family=Sixtyfour+Convergence&display=swap');
 
-
-header nav .cultura{
+header nav .cultura {
     font-size: 26px;
 }
 
-header nav .nacionales{
+header nav .nacionales {
     font-size: 26px;
 }
 
-section{
+section {
     padding-left: 10%;
     padding-right: 10%;
 }
 
-section h3{
+section h3 {
     font-family: "Prata", serif;
     font-size: 3em;
     text-align: center;
     padding: 1%;
 }
 
-<<<<<<< HEAD
-section h4{
+section h4 {
     font-family: "Prata", serif;
     font-size: 1.3em;
     text-align: center;
     padding: 1%;
 }
 
-=======
->>>>>>> 1adb483a5b945dce440fbff844beb9356231cb43
-section article p{
+section article p {
     padding-top: 1.2%;
     padding-bottom: 1.2%;
-    font-family: "Roboto serif", serif;
+    font-family: "Roboto Serif", serif;
     text-align: justify;
     line-height: 200%;
 }
 
-article p:first-of-type::first-letter{
+article p:first-of-type::first-letter {
     font-size: 3em;
 }
-<<<<<<< HEAD
 
 section article img {
     margin: 0 auto;
-    height: 400px;
-    width: 400px;
+    height: auto;
+    width: 100%;
+    max-width: 400px;
     display: block;
 }
-=======
->>>>>>> 1adb483a5b945dce440fbff844beb9356231cb43
+
+@media (max-width: 768px) {
+    section {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    section h3 {
+        font-size: 2.5em;
+    }
+
+    section h4 {
+        font-size: 1.2em;
+    }
+
+    section article img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    section h3 {
+        font-size: 2em;
+    }
+
+    section h4 {
+        font-size: 1.1em;
+    }
+}

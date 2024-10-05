@@ -4,7 +4,6 @@ body {
     color: #03224A;
 }
 
-
 .formulario-contacto {
     max-width: 600px;
     margin: 20px auto;
@@ -76,7 +75,79 @@ button:hover {
 .newsletter {
     display: flex;
     justify-content: center;
-    justify-items: center;
     padding: 0.5%;
     margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .formulario-contacto {
+        padding: 15px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="date"],
+    input[type="tel"],
+    select {
+        width: 100%;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .formulario-contacto {
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="date"],
+    input[type="tel"],
+    select {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .formulario-contacto {
+        padding: 5px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="date"],
+    input[type="tel"],
+    select {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 10px;
+    }
 }

@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Prata&family=Sixtyfour+Convergence&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Roboto Serif", serif;
     font-size: 16px;
 }
 
-h1{
+h1 {
     font-family: "Prata", serif;
     font-size: 80px;
     text-align: center;
 }
 
-#contenedor{
+#contenedor {
     width: 80%;
     margin: 0 auto;
     text-align: justify;
@@ -22,38 +22,37 @@ h1{
     word-wrap: break-word;
 }
 
-#izquierda{
+#izquierda {
     float: left;
     width: 24%;
 }
 
-#centro{
+#centro {
     float: left;
     width: 48%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding: 0 2%;
 }
 
-#derecha{
+#derecha {
     float: left;
     width: 24%;
 }
 
-.img{
+.img {
     height: 200px;
     width: 100%;
 }
 
-.imgWH{
+.imgWH {
     height: 400px;
     width: 100%;
 }
 
-#contenedor p{
+#contenedor p {
     padding-top: 10px;
 }
 
-#contenedor h3:hover{
+#contenedor h3:hover {
     text-decoration: none;
 }
 
@@ -74,10 +73,36 @@ footer {
     color: white;
     text-transform: uppercase;
     padding: 1%;
-    display: flex block;
+    display: flex;
     justify-content: center;
-    justify-items: center;
     position: static;
     bottom: 0%;
     clear: both;
+}
+
+@media (max-width: 1024px) {
+    #izquierda, #derecha {
+        width: 30%;
+    }
+    #centro {
+        width: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    #izquierda, #centro, #derecha {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
 }
