@@ -31,19 +31,20 @@ section {
     display: block;
     margin: 0 auto;
     width: 100%;
-    height: auto;
+    height: 50%;
 }
 
 .desc {
     padding: 15px;
     text-align: center;
     font-weight: bold;
+    vertical-align:middle;
 }
 
 .sum {
     text-align: justify;
     font-size: 12px;
-    padding: 15px;
+    padding: 10px 10% ;
     color: black;
     line-height: 180%;
 }
