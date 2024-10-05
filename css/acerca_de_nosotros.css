@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Prata&family=Sixtyfour+Convergence&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Roboto Serif", serif;
@@ -57,7 +57,7 @@ p {
     padding: 15px;
 }
 
-.miembro:hover{
+.miembro:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -82,29 +82,27 @@ p.sub {
     color: #03224a;
 }
 
-.miembro:nth-child(-n+3){
+.miembro:nth-child(-n+3) {
     flex: 1 0 30%;
 }
 
-.miembro:nth-child(n+4){
+.miembro:nth-child(n+4) {
     flex: 1 0 45%;
 }
 
-
-@media (max-width: 768px){
-    .miembro{
+@media (max-width: 768px) {
+    .miembro {
         flex: 1 0 48%;
     }
-
 }
 
-@media (max-width: 480px){
-    .miembro{
+@media (max-width: 480px) {
+    .miembro {
         flex: 1 0 100%;
         margin-bottom: 20px;
     }
 
-    .miembro img{
+    .miembro img {
         width: 120px;
         height: 120px;
     }
