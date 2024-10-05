@@ -10,5 +10,8 @@ section article div ol li{
     line-height: 200%;
     font-size: 28px;
     font-weight: bold;
-    
+}
+
+div ol p::first-letter {
+    font-size: 3em;
 }
