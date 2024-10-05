@@ -15,9 +15,6 @@ h1 {
 }
 
 #contenedor {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     width: 80%;
     margin: 0 auto;
     text-align: justify;
@@ -25,9 +22,20 @@ h1 {
     word-wrap: break-word;
 }
 
-#izquierda, #centro, #derecha {
-    flex: 1 1 24%;
-    margin: 10px;
+#izquierda {
+    float: left;
+    width: 24%;
+}
+
+#centro {
+    float: left;
+    width: 48%;
+    padding: 0 2%;
+}
+
+#derecha {
+    float: left;
+    width: 24%;
 }
 
 .img {
@@ -72,21 +80,28 @@ footer {
     clear: both;
 }
 
+@media (max-width: 1024px) {
+    #izquierda, #derecha {
+        width: 30%;
+    }
+    #centro {
+        width: 40%;
+    }
+}
+
 @media (max-width: 768px) {
     #izquierda, #centro, #derecha {
-        flex: 1 1 100%;
-    }
-    
-    h1 {
-        font-size: 60px;
+        float: none;
+        width: 100%;
+        padding: 0;
     }
 }
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 40px;
+        font-size: 60px;
     }
-    
+
     footer {
         font-size: 0.8em;
     }
