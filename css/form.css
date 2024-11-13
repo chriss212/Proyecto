@@ -40,7 +40,7 @@ input[type="tel"],
 select {
     width: 95%;
     padding: 10px;
-    border: 1px solid #DD1616;
+    border: 1px solid #03224A;
     border-radius: 5px;
     font-size: 16px;
     display: block;
@@ -61,7 +61,7 @@ input[type="radio"] {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #DD1616;
+    background-color: #0068FF;
     color: white;
     border: none;
     border-radius: 5px;
