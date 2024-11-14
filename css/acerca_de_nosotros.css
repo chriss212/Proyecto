@@ -93,6 +93,11 @@ p.sub {
 @media (max-width: 768px) {
     .miembro {
         flex: 1 0 48%;
+        margin-bottom: 10px;
+    }
+    .miembro img {
+        max-width: 100%;
+        height: auto;
     }
 }
 
@@ -103,7 +108,13 @@ p.sub {
     }
 
     .miembro img {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        display: block;
+    }
+    .miembro h3, .miembro p {
+        text-align: center;
+        margin: 5px 0;
     }
 }

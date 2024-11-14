@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Prata&family=Sixtyfour+Convergence&display=swap');
+
+body {
+    font-family: "Roboto Serif", serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 1em;
+    display: block;
+    color: #333;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 0.8em;
+    margin-top: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 0.8em;
+    margin-top: 1.5em;
+    border: none;
+    border-radius: 4px;
+    background-color: #03224A;
+    color: #fff;
+    font-family: "Roboto Serif", serif;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #03224A;
+}
+
+.links {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 0.9em;
+}
+
+.links a {
+    color: #03224A;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
