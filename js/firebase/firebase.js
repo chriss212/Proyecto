@@ -43,7 +43,7 @@ import { getFirestore, doc, addDoc, setDoc, getDoc, getDocs, collection, query, 
       const userCredential = await signInWithEmailAndPassword(auth, email, password)
       const user = userCredential.user;
 
-      const dataUser = await getDoc(doc(db, 'users', user.uid));
+      const dataUser = await getDoc(doc(db, "users", user.uid));
 
       if (dataUser.exists()){
         console.log("Inicio de sesión exitoso:", dataUser.data().role);

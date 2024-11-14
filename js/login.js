@@ -23,11 +23,11 @@ document.getElementById("registerForm").addEventListener("submit", async (e) => 
 });
 
 // Inicio de sesión
-document.getElementById('loginForm').addEventListener('submit', async (e) => {
+document.getElementById("loginForm").addEventListener("submit", async (e) => {
     e.preventDefault();
     
-    const email = document.getElementById('loginEmail').value;
-    const password = document.getElementById('loginPassword').value;
+    const email = document.getElementById("loginEmail").value;
+    const password = document.getElementById("loginPassword").value;
     
     try {
 
@@ -35,7 +35,8 @@ document.getElementById('loginForm').addEventListener('submit', async (e) => {
       
       if (userData) {
 
-      window.location.href = "home.html";
+      window.location.href ="home.html"  ;
+      
       } else {
         alert("Usuario y/o contraseña incorrectos.");
       }

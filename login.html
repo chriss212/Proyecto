@@ -10,21 +10,25 @@
 
     <div class="login-container" id="login" role="tabpanel" aria-labelledby="login-tab">
         <form id="loginForm">
-            <h2>Inicio de Sesión</h2>
-            <label for="loginEmail">Correo electrónico:</label>
+          <h2>Inicio de Sesión</h2>
+          <div>
+            <label for="loginEmail" class="form-label">Correo electrónico</label>
             <input type="email" id="loginEmail" required>
-    
-            <label for="loginPassword">Contraseña:</label>
-            <input type="password" id="loginPassword" required>
-    
-            <button type="submit" class="btn-login">Iniciar Sesión</button>
-            
-            <div class="links">
-                <p><a href="cambiar_contraseña.html">¿Olvidaste tu contraseña?</a></p>
-                <p><a href="registro.html">¿No tienes una cuenta? Registrarse</a></p>
-            </div>
+          </div>
+          <div>
+            <label for="loginPassword" class="form-label">Contraseña</label>
+            <input type="password"id="loginPassword" required>
+          </div>
+
+          <button type="submit" class="btn-login">Iniciar Sesión</button>
+
+          <div class="links">
+            <p><a href="registro.html">¿No tienes una cuenta? Registrarse</a></p>
+          </div>
         </form>
     </div>
-    <script type="module" src="./js/login.js"></script>
+
+    <script type="module" src="js/login.js"></script>
+
 </body>
 </html>
