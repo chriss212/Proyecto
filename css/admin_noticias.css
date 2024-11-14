@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Prata&family=Sixtyfour+Convergence&display=swap');
+
+body {
+    font-family: "Roboto Serif", serif;
+    margin: 20px;
+    background-color: #f3f3f3;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-family: "Prata", serif;
+}
+
+.noticia {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.botones {
+    margin-top: 15px;
+    text-align: right;
+}
+
+.boton-aceptar {
+    background-color: #4CAF50;
+    font-family: "Prata", serif;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.boton-rechazar {
+    background-color: #f44336;
+    font-family: "Prata", serif;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.boton-aceptar:hover {
+    background-color: #45a049;
+}
+
+.boton-rechazar:hover {
+    background-color: #e6392e;
+}
