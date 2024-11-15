@@ -27,7 +27,7 @@ import { getFirestore, doc, addDoc, setDoc, getDoc, getDocs, collection, query, 
           username,
           fullName,
           email,
-          role:"user"
+          role:"editor"
         })
         console.log('Usuario registrado exitosamente: ', userCredencial.user);
         return true;

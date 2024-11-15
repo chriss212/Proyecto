@@ -16,11 +16,13 @@ section {
     flex-wrap: wrap;
 }
 
-.noticias {
+.noticias, #noticiasList {
     margin: 5px;
     border: 1px solid grey;
-    width: 35%;
+    width: 99.1%;
     transition: border 0.3s;
+    display:block;
+    
 }
 
 .noticias:hover {

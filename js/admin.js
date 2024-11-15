@@ -65,7 +65,7 @@ async function actualizarEstadoNoticia(noticiaId, nuevoEstado) {
 
   console.log(`Noticia ${nuevoEstado}: ${noticiaId}`);
   alert(`Noticia ${nuevoEstado} exitosamente.`);
-  obtenerNoticiasPendientes(); // Recargar la lista de noticias
+  obtenerNoticiasPendientes();
 }
 
 obtenerNoticiasPendientes();
