@@ -1,7 +1,6 @@
 import { registerUser, loginUser } from "./firebase/firebase.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-    // Registro de usuario
     const registerForm = document.getElementById("registerForm");
     if (registerForm) {
         registerForm.addEventListener('submit', async (e) => {
@@ -27,7 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // Inicio de sesión
     const loginForm = document.getElementById("loginForm");
     if (loginForm) {
         loginForm.addEventListener('submit', async (e) => {
@@ -40,7 +38,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 const userData = await loginUser(email, password);
 
                 if (userData) {
-                    window.location.href = "home.html";
+                    const userRole = userData.role;
+
+                    if (userRole === 'admin') {
+                        window.location.href = "admin_noticias.html";  
+                    } else if (userRole === 'editor') {
+                        window.location.href = "FormularioCreacionNoticia.html";
+                    } else {
+                        window.location.href = "home.html";
+                    }
                 } else {
                     alert("Usuario y/o contraseña incorrectos.");
                 }
