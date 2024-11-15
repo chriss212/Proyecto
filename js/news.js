@@ -1,4 +1,3 @@
-// Importación de módulos necesarios de Firebase
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
 import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
 
@@ -18,7 +17,6 @@ const db = getFirestore(app);
 document.getElementById("registerNews").addEventListener("submit", async function (event) {
   event.preventDefault();
 
-  // Capturar los datos del formulario
   const titulo = document.getElementById("titulo").value;
   const descripcion = document.getElementById("descripcion").value;
   const categoria = document.getElementById("categoria").value;

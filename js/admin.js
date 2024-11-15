@@ -32,7 +32,7 @@ async function obtenerNoticiasPendientes() {
       <p><strong>Autor:</strong> ${noticia.autor}</p>
       <p><strong>Categoría:</strong> ${noticia.categoria}</p>
       <p><strong>Descripción:</strong> ${noticia.descripcion}</p>
-      <p>${noticia.contenido}</p>
+      <p><strong>Cuerpo:</strong>${noticia.contenido}</p>
       <div class="botones">
         <button class="boton-aceptar" data-id="${doc.id}" type="button">Aceptar</button>
         <button class="boton-rechazar" data-id="${doc.id}" type="button">Rechazar</button>
