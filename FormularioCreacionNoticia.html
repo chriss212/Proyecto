@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Agregar Noticia - ESENews</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/formnoticia.css">
+</head>
+<body>
+    <header>
+        <h1 id="inicio">ESENews - Agregar Noticia</h1>
+        <div id="nav">
+            <nav>
+                <ul>
+                    <li><a href="home.html" target="_blank">Home</a></li>
+                    <li><a href="nacionales.html" target="_blank">Nacionales</a></li>
+                    <li><a href="internacionales.html" target="_blank">Internacionales</a></li>
+                    <li><a href="deportes.html" target="_blank">Deportes</a></li>
+                    <li><a href="economia.html" target="_blank">Economía</a></li>
+                    <li><a href="cultura.html" target="_blank">Cultura</a></li>
+                    <li><a href="entretenimiento.html" target="_blank">Entretenimiento</a></li>
+                    <li><a href="FormularioContacto.html" target="_blank">Contacto</a></li>
+                    <li><a href="acerca_de_nosotros.html" target="_blank">Acerca de nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+	<section class="formulario-noticia">
+		<h3>Agregar Nueva Noticia</h3>
+		<form action="" method="post" enctype="multipart/form-data" id="registerNews">
+
+			<label for="titulo">Título de la noticia:</label>
+			<input type="text" id="titulo" name="titulo" required minlength="5" maxlength="100" title="Ingrese un título válido.">
+
+			<label for="descripcion">Descripción breve:</label>
+			<textarea id="descripcion" name="descripcion" required minlength="10" maxlength="300" title="Ingrese una descripción breve de la noticia."></textarea>
+
+			<label for="categoria">Categoría:</label>
+			<select id="categoria" name="categoria" required>
+				<option value="">Seleccione una categoría</option>
+				<option value="Nacionales">Nacionales</option>
+				<option value="Internacionales">Internacionales</option>
+				<option value="Deportes">Deportes</option>
+				<option value="Economía">Economía</option>
+				<option value="Cultura">Cultura</option>
+				<option value="Entretenimiento">Entretenimiento</option>
+			</select>
+
+			<label for="fecha_publicacion">Fecha de publicación:</label>
+			<input type="date" id="fecha_publicacion" name="fecha_publicacion" required>
+
+			<label for="autor">Autor:</label>
+			<input type="text" id="autor" name="autor" required minlength="2" maxlength="50" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Ingrese el nombre del autor.">
+
+			<label for="contenido">Contenido de la noticia:</label>
+			<textarea id="contenido" name="contenido" required minlength="50" title="Ingrese el contenido completo de la noticia."></textarea>
+
+<!-- 			<label for="imagen">Imagen de la noticia (opcional):</label>
+			<input type="file" id="imagen" name="imagen" accept="image/*"> -->
+
+			<br>
+			<button type="submit">Publicar Noticia</button>
+		</form>
+	</section>
+
+	<footer>ESENews 2024. Todos los derechos reservados.</footer>
+	<script type="module" src="js/firebase/firebase.js"></script>
+	<script type="module" src="js/news.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cambiar_contraseña.css">
+    <title>Recuperar Contraseña</title>
+</head>
+<body>
+    <div class="forgot-password-container">
+        <h2>Recuperar Contraseña</h2>
+        <p>Ingresa tu correo electrónico y te enviaremos instrucciones para restablecer tu contraseña.</p>
+        <form action="/forgot-password" method="POST">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <button type="submit" class="btn-forgot-password">Enviar Instrucciones</button>
+            
+            <div class="links">
+                <p><a href="login.html">Volver al inicio de sesión</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

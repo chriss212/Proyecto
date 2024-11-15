@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registro.css">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="register-container" id="register" role="tabpanel" aria-labelledby="register-tab">
+        <form id="registerForm">
+          <h2>Registro de Nuevo Usuario</h2>
+
+            <div class="mb-3">
+                <label for="registerEmail" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="registerEmail" required>
+            </div>
+            <div class="mb-3">
+                <label for="registerPassword" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="registerPassword" required>
+            </div>
+            <div class="mb-3">
+                <label for="username" class="form-label">Nombre de Usuario:</label>
+                <input type="text" class="form-control" id="username" required>
+            </div>
+            <div class="mb-3">
+                <label for="fullName" class="form-label">Nombre Completo:</label>
+                <input type="text" class="form-control" id="fullName" required>
+            </div>
+
+            <button type="submit" class="btn-register">Registrarse</button>
+
+            <div class="links">
+                <p>¿Ya tienes una cuenta? <a href="login.html">Inicia sesión</a></p>
+            </div>
+
+        </form>
+      </div>
+    <script type="module" src="js/login.js"></script>
+</body>
+</html>

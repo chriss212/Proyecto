@@ -1,25 +1,25 @@
-
 body {
     font-family: "Roboto Serif", serif;    
     background-color: #f0f0f0;
     color: #03224A;
 }
 
-.formulario-contacto {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
+.formulario-noticia {
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 25px;
     border: 2px solid #0068FF;
     border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    background-color: gainsboro;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
 }
 
 h3 {
     text-align: center;
     color: #004CBA;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .form-group {
@@ -28,7 +28,7 @@ h3 {
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     font-weight: bold;
     color: #03224A;
 }
@@ -38,21 +38,29 @@ input[type="email"],
 input[type="number"],
 input[type="date"],
 input[type="tel"],
+textarea,
 select {
     width: 95%;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #03224A;
     border-radius: 5px;
     font-size: 16px;
     display: block;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+textarea {
+    resize: vertical;
 }
 
 input:focus,
-select:focus {
+select:focus,
+textarea:focus {
     border-color: #0068FF;
     outline: none;
+    background-color: #e6f0ff;
 }
 
 input[type="radio"] {
@@ -61,12 +69,15 @@ input[type="radio"] {
 
 button {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     background-color: #0068FF;
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -81,8 +92,59 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-    .formulario-contacto {
+    .formulario-noticia {
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="date"],
+    input[type="tel"],
+    textarea,
+    select {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .formulario-noticia {
         padding: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="date"],
+    input[type="tel"],
+    textarea,
+    select {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 15px;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .formulario-noticia {
+        padding: 10px;
     }
 
     h3 {
@@ -94,61 +156,14 @@ button:hover {
     input[type="number"],
     input[type="date"],
     input[type="tel"],
-    select {
-        width: 100%;
-    }
-
-    button {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 600px) {
-    .formulario-contacto {
-        padding: 10px;
-    }
-
-    h3 {
-        font-size: 16px;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    input[type="number"],
-    input[type="date"],
-    input[type="tel"],
+    textarea,
     select {
         padding: 8px;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     button {
         font-size: 14px;
-        padding: 12px;
-    }
-}
-
-@media (max-width: 480px) {
-    .formulario-contacto {
-        padding: 5px;
-    }
-
-    h3 {
-        font-size: 14px;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    input[type="number"],
-    input[type="date"],
-    input[type="tel"],
-    select {
-        padding: 6px;
-        font-size: 12px;
-    }
-
-    button {
-        font-size: 12px;
         padding: 10px;
     }
 }
