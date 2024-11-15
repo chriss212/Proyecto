@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="tituloNoticia">Detalles de la noticia</title>
+    <title>Detalles de la noticia</title>
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/imagenes.css">
     <link rel="stylesheet" href="css/style-css.css">
@@ -28,24 +28,17 @@
             </nav>
         </div>
     </header>
-
-    <section id="cultura">
-        <!-- El título de la noticia se actualizará dinámicamente -->
-        <h3 id="tituloNoticia">Cargando título...</h3>
-        
+    <section id="deportes">
+        <h3 id="tituloNoticia"></h3>
         <article>
-            <!-- Imagen de la noticia -->
-            <img id="imagenNoticia" class="img" alt="Imagen de la noticia">
-            <!-- Autor de la noticia -->
-            <p id="autor">Cargando autor...</p>
-            <!-- Contenido de la noticia -->
-            <div id="contenido">Cargando contenido...</div>
+            <img class="img" alt="imagen">
+            <p id="autor"></p>
+            <p id="fecha"></p>
+            <p id="contenido"></p>
         </article>
     </section>
-
     <footer>ESENews 2024. Todos los derechos reservados.</footer>
+    <script type="module" src="js/noticias_articulos.js"></script>
 
-    <!-- Enlace al archivo JS que maneja la carga de datos desde Firestore -->
-    <script type="module" src="js/noticias_cultura.js"></script>
 </body>
 </html>
